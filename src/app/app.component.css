@@ -1,4 +1,10 @@
-.container, .operators {
+mat-card {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
   width:  100%;
   display: flex;
   align-content: center;
@@ -7,9 +13,9 @@
 
 }
 
-.container > button, .operators button {
+.container > button {
   margin: 5px;
-  width: 31%;
+  width: 30%;
   padding: 10px;
 }
 

@@ -1,6 +1,6 @@
-<h1>{{ name }}</h1>
 
 <mat-card>
+  <h1>{{ name }}</h1>
 	<mat-form-field>
 		<input [readonly]="true" type="text" matInput [(ngModel)]=display>
   </mat-form-field>
@@ -14,8 +14,8 @@
 				<button *ngFor="let o of operators" (click)="operation(o)" color="primary" mat-raised-button>{{ o }}</button>
 			</div>
 
-			<div id="operators" class="container">
-				<button color="primary" (click)="operation('=')" mat-raised-button>=</button>
+			<div id="fin" class="container">
+				<button *ngFor="let f of fin" color="primary" (click)="operation(f)" mat-raised-button>{{f}}</button>
 			</div>
 		</mat-card-content>
 </mat-card>
