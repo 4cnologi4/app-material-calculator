@@ -1,0 +1,19 @@
+.container, .operators {
+  width:  100%;
+  display: flex;
+  align-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+
+.container > button, .operators button {
+  margin: 5px;
+  width: 31%;
+  padding: 10px;
+}
+
+mat-form-field {
+  display: flex;
+  justify-content: center;
+}
